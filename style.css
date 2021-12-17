@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    cursor:url(Imagenes/puntero.png), auto;
+}
+.parallax-container{
+    width: 100%;
+    height: 100vh;
+    perspective: 8px;
+    perspective-origin: 50%;
+    overflow-x:hidden;
+    overflow-y: scroll;
+    position: relative;
+}
+.image{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transform: 0 50%;
+}
+.image__background{
+    height: auto;
+    width: 100%;
+    transform: translateZ(0px) scale(1);
+    transform-origin: 0 50%;
+}
+.image__background img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.image__objects{
+    height: 100%;
+    width: 50%;
+    transform: translateZ(2px) scale(0.375); /* scale es para ajustar todos los elementos al tamaño del fondo */
+}
+.image__objects img:nth-child(1){
+    width: 350px;
+    height: auto;
+    transform: translate(500px, 8px);
+}
+.image__objects img:nth-child(2){
+    width: 500px;
+    height: auto;
+    transform: translate(-300px, 2900px);
+}
+.image__objects img:nth-child(3){
+    width: 500px;
+    height: auto;
+    transform: translate(600px, 1000px) rotate(-20deg);
+}
+.image__foreground{
+    transform: translateZ(3px) scale(0.75);
+    transform-origin: top;
+    margin: 50% 0 0 20%;
+}
+.image__foreground img{
+    width: 60%;
+    height: auto;
+}
+.image__cards{
+    height: 100%;
+    width: 90%;
+    transform: translateZ(5px) scale(0.375); /* scale es para ajustar todos los elementos al tamaño del fondo */
+    transform-origin: 50%;
+}
+
+.card{
+    background-color: pink;
+    border-radius: 8px;
+    width: 60px;
+    height: 90px;
+    position: absolute;
+    transform: rotate(-10deg);
+    display: flex;
+    flex-direction: column;
+}
+.card:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.card p{
+    color: rgb(110, 89, 112);
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 8px;
+    font-family: 'Corinthia', cursive;
+}
+.card img{
+    width: 70%;
+    height: auto;
+    position: absolute;
+    margin: 20px 12px;
+}
+.one{
+    left: 30%;
+    top:80px;
+    transition: transform 500ms;
+}
+
+.two{
+    right:14%;
+    top:440px;
+    transition: transform 1s;
+}
+.two img{
+    margin: 20px 8px;
+}
+.three{
+    right:20%;
+    bottom:-1000px;
+    transition: transform 1.5s;
+}
+.four{
+    left:25%;
+    bottom:-550px;
+    transition: transform 1.5s;
+}
+.image_naipes{
+    height: 100%;
+    width: 90%;
+    transform: translateZ(5px) scale(0.375); /* scale es para ajustar todos los elementos al tamaño del fondo */
+    transform-origin: 50%;
+}
+
+.naipe{
+    width: 90px;
+    height: auto;
+    position: absolute;
+}
+
+.corazon{
+    left: 50%;
+    top:700px;
+    transition: transform 500ms;
+    transform: rotate(5deg);
+}
+.posterior{
+    right:70%;
+    top:1500px;
+    transition: transform 1s;
+    transform: rotate(5deg);
+}
+.diamante{
+    right:70%;
+    top:3000px;
+    transition: transform 1.5s;
+    transform: rotate(-5deg);
+}
+.pica{
+    left: 80%;
+    top:3200px;
+    transition: transform 500ms;
+    transform: rotate(7deg);
+}
+.trebol{
+    right:14%;
+    top:4000px;
+    transition: transform 1s;
+    transform: rotate(7deg);
+}
+.posterior2{
+    right:50%;
+    top:3800px;
+    transition: transform 1.5s;
+    transform: rotate(-7deg);
+}
