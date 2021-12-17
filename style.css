@@ -66,7 +66,7 @@ body{
 }
 
 .card{
-    background-color: pink;
+    background-color: rgb(250, 173, 196);
     border-radius: 8px;
     width: 60px;
     height: 90px;
@@ -81,11 +81,10 @@ body{
 }
 .card p{
     color: rgb(110, 89, 112);
-    font-size: 14px;
-    text-align: center;
+    font-size: 15px;
     position: absolute;
-    bottom: 0px;
-    left: 8px;
+    bottom: -6px;
+    padding: 0px 4px;
     font-family: 'Corinthia', cursive;
 }
 .card img{
