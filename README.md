@@ -25,3 +25,6 @@ La poción encoge a Alicia hasta hacerla medir veinticinco centímetros de altur
 <p>Enseguida, Alicia intenta abrir una pequeña puerta para continuar explorando el mundo nuevo.
 A través de la puerta se atisba un atractivo jardín, pero la llave que abre la puerta está sobre una mesa que Alicia no puede alcanzar, debido a su nueva estatura.
 La niña intenta entonces recuperar su estatura original, comiendo un pastel que encuentra con la etiqueta «CÓMEME».</p>
+ 
+  
+  TO BE CONTINUED...
