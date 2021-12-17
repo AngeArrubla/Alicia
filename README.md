@@ -1,6 +1,6 @@
 <h1>ALICIA EN EL PAIS DE LAS MARAVILLAS</h1>
 
-<h4> :heart: - La historia cuenta cómo una niña llamada Alicia cae por un agujero, encontrándose en un mundo peculiar y extraño , poblado por humanos y criaturas antropomórficas,
+<h4> :heart: ... La historia cuenta cómo una niña llamada Alicia cae por un agujero, encontrándose en un mundo peculiar y extraño , poblado por humanos y criaturas antropomórficas,
 precisamente esa escena es la que decidí construir en este proyecto de transiciones y transformaciones :heart:</h4>
 <br/>
 <img src="https://i.ibb.co/6ZcFK3p/Alicia.png" alt="Alicia" border="0" align="left" width="30%" height="auto"/>
